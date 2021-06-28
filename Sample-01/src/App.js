@@ -20,7 +20,7 @@ initFontAwesome();
 
 const App = () => {
   const { isLoading, error } = useAuth0();
-
+// 状態を管理できるみたいやな
   if (error) {
     return <div>Oops... {error.message}</div>;
   }
